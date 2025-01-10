@@ -1,4 +1,4 @@
-#remind-me
+# remind-me
 
 remind-me is an online to-do list, allowing users to create different collections and add tasks to the collection. The taks can be checked off when done and the deadlines of the tasks are displayed right underneath the task. The app is built using NextJs, ShadCN, Prisma, PostgreSQL, ClerkJS and deployed on Vercel.
 
