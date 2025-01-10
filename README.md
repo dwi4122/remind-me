@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#remind-me
 
-## Getting Started
+remind-me is an online to-do list, allowing users to create different collections and add tasks to the collection. The taks can be checked off when done and the deadlines of the tasks are displayed right underneath the task. The app is built using NextJs, ShadCN, Prisma, PostgreSQL, ClerkJS and deployed on Vercel.
 
-First, run the development server:
+## How to install and run on your own machine
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Clone repository
+- npm install all dependencies
+- Set up the backend
+- Run the application using the command: npm run dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### How to setup the backend
+- Ensure prisma and prisma/client have the same version
+- Run the following commands: -
+  - npx prisma init
+  - npx prisma migrate dev
+  - npx prisma studio ( A webpage should open showing the database)
+ 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to use the app
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Simply follow the link {} and login using email.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
