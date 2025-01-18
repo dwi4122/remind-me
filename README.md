@@ -17,7 +17,5 @@ remind-me is an online to-do list, allowing users to create different collection
   - npx prisma studio ( A webpage should open showing the database)
  
 
-## How to use the app
 
-- Simply follow the link {} and login using email.
 
