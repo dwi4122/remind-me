@@ -9,7 +9,7 @@ remind-me is an online to-do list, allowing users to create different collection
 - Set up the backend
 - Run the application using the command: npm run dev
 
-### How to setup the backend
+## How to setup the backend
 - Ensure prisma and prisma/client have the same version
 - Run the following commands: -
   - npx prisma init
